@@ -45,7 +45,8 @@ std::string MapIdToName(uint32_t mapId) {
 		return "Stormveil Castle";
 	}
 
-    if (identifier == "m255_255_255_255") {        return "Loading...";
+    if (identifier == "m255_255_255_255") {        
+        return "Loading...";
     }
 	
     return identifier;
